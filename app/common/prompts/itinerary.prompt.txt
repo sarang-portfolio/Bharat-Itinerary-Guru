@@ -1,0 +1,6 @@
+Use the place details object below only as a reference for generating a travel itinerary. Prioritize user preferences over reference data where applicable.
+
+Reference Data:
+travelDetails: {{travelDetails}}
+
+Generate a well-structured travel itinerary considering the above details.
