@@ -24,7 +24,7 @@ Bharat Itinerary Guru is a simple yet powerful travel itinerary application desi
 
    Clone the project repository to your local machine using the following command:
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/sarang-portfolio/Bharat-Itinerary-Guru.git
    ```
 
 3. **Create a `.env` File**
