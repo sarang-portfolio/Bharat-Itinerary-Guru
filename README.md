@@ -29,7 +29,7 @@ Bharat Itinerary Guru is a simple yet powerful travel itinerary application desi
 
 3. **Create a `.env` File**
 
-Create a .env file in the root of your project directory. This file will contain environment variables, such as API keys and service configurations, which are referenced in the Dockerfile. Ensure you set them according to the configuration specified in the Dockerfile.
+   Create a .env file in the root of your project directory. This file will contain environment variables, such as API keys and service configurations, which are referenced in the Dockerfile. Ensure you set them according to the configuration specified in the Dockerfile.
 
 4. **Build and Start the Application**
 
@@ -44,10 +44,10 @@ Create a .env file in the root of your project directory. This file will contain
 
 ## Additional Notes
 
-- **Challenges Faced**:
+**Challenges Faced**:
 - Integrating AI models (Gemini AI) for generating relevant itineraries was initially challenging due to the complexity of chaining multiple prompts and ensuring accurate responses.
   
-- **Future Improvements**:
+**Future Improvements**:
 - API Integrations: Integrate APIs for real-time travel data such as flight details, hotel bookings, and weather updates.
 - Multi-City Itinerary Generation: Extend the app’s functionality to generate itineraries for multi-city travel within India. (Currently I have only integrated `Jaipur` minimizing the complexity of the project).
 - Faster API-Responses: Although the current implementation supports a basic in memory Map which acts as a simple cache lookup, later on can implement proper caching mechanism like Redis. The time taken by current API is comparatively long but fine considering the project simplicity. It can be further optimized by LLM streams, background workers, a queuing mechanism for handling the heavy LLM tasks.
